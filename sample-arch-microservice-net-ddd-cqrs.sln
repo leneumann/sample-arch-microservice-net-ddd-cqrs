@@ -15,9 +15,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.Infra", "src\Sample.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BEED7E87-06AA-4958-A9F5-E079C53D8E18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Tests", "tests\Sample.Tests\Sample.Tests.csproj", "{7FB43288-75BA-43D5-AC3C-4B7B68999C93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.Tests", "tests\Sample.Tests\Sample.Tests.csproj", "{7FB43288-75BA-43D5-AC3C-4B7B68999C93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.ArchUnitTests", "tests\Sample.ArchUnitTests\Sample.ArchUnitTests.csproj", "{0AB922E1-CDCF-42EB-957E-A83ACD13E830}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.ArchUnitTests", "tests\Sample.ArchUnitTests\Sample.ArchUnitTests.csproj", "{0AB922E1-CDCF-42EB-957E-A83ACD13E830}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8D978F67-D246-496C-894A-64AA5ADE0561}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
